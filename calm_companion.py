@@ -17,7 +17,7 @@ def encouragement():
 
  messages = ["You are not defined by your anxiety. Remember that.", 
             "There is nothing wrong with you for feeling this way.",
-            "Things feel hard right now, but you won't feel this way forever.",
+            "Things feel hard right now, but things won't feel this way forever.",
             "You are strong and you can overcome this feeling."]
 
  for message in messages:
@@ -25,6 +25,8 @@ def encouragement():
     print()
     time.sleep(4)
 
+ print("I hope that this makes you feel a little better.")
+ print()
  print("Please talk to someone if you need to. It's okay to seek help. You don't have to face these feelings alone.")
  print()
 
@@ -44,6 +46,8 @@ def gentle_breathing():
     print("Gently breathe out. ")
     time.sleep(3)
 
+    print("I hope this makes you feel a little better.")
+    print()
     print("Please talk to someone if you need to. It's okay to seek help. You don't have to face these feelings alone.")
     print()
 
@@ -83,14 +87,14 @@ def bible_verse():
    "1 Peter 5:7: Casting all your cares on Him, for He cares about you.",
    "Isaiah 41:10: Do not fear anything, for I am with you; Do not be afraid, for I am your God. I wil strengthen"
    "you, be assured I will help you; I will certainly take hold of you with my righteous right hand.",
-   "God is with you, he loves you and he will help you get through this."]
+   "God is with you, he loves you and he will help you get through this. You are not alone."]
 
    for verse in bible_verses:
       print(verse)
       print()
       time.sleep(4)
 
-   print("I encourage you to pray to God and bring your feelings to him.")
+   print("I hope this helps you. I encourage you to pray to God and to bring your feelings to him.")
    print()
    print("Please talk to someone if you need to. It's okay to seek help. You don't have to face these feelings alone.")
    print()
