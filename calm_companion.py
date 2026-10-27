@@ -45,13 +45,14 @@ def gentle_breathing():
     time.sleep(3)
     print("Gently breathe out. ")
     time.sleep(3)
+    print()
 
     print("I hope this makes you feel a little better.")
     print()
     print("Please talk to someone if you need to. It's okay to seek help. You don't have to face these feelings alone.")
     print()
 
-    print("Press enter to return to the menu.")
+    input("Press enter to return to the menu.")
 
 def belly_breathing():
 
@@ -59,23 +60,26 @@ def belly_breathing():
    print()
 
    print("Place a hand on your abdomen.")
-   time.sleep(3)
-   print("Gently breathe in. Watch as your abdomen expands.")
-   time.sleep(3)
-   print("Gently breathe out. Watch as your abdomen settles.")
-   time.sleep(3)
+   time.sleep(4)
+   print("Slowly breathe in. Watch as your abdomen expands.")
+   time.sleep(4)
+   print("Slowly breathe out. Watch as your abdomen settles.")
+   time.sleep(4)
    print("Gently breathe in again. Watch as your abdomen expands once more.")
-   time.sleep(3)
-   print("Gently breathe in once more. Watch again as your abdomen expands.")
-   time.sleep(3)
-   print("Gently breathe out again. Watch once more as yoru abdomen settles.")
-   time.sleep(3)
+   time.sleep(4)
+   print("Slowly breathe out again. Watch again as your abdomen stills.")
+   time.sleep(4)
+   print("Gently breathe in one last time Watch once more as your abdomen expands.")
+   time.sleep(4)
+   print("Breathe out slowly for the last time. Look once more as your abdomen settles.")
+   time.sleep(4)
+   print()
 
    print("I hope you feel a little more at peace.")
    print()
    print("Please talk to someone if you need to. It's okay to seek help. You don't have to face these feelings alone.")
    print()
-   print("Press enter to return to the menu.")
+   input("Press enter to return to the menu.")
  
 def bible_verse():
 
@@ -94,7 +98,7 @@ def bible_verse():
       print()
       time.sleep(4)
 
-   print("I hope this helps you. I encourage you to pray to God and to bring your feelings to him.")
+   print("I hope this helps you feel better. I encourage you to pray to God and to bring your feelings to him.")
    print()
    print("Please talk to someone if you need to. It's okay to seek help. You don't have to face these feelings alone.")
    print()
@@ -108,7 +112,7 @@ while True:
  print("1. Encouragement.")
  print("2. Gentle-paced breathing excercise.")
  print("3. Belly breathing excercise.")
- print("3. Bible Verse.")
+ print("4. Bible Verse.")
 
  option = int(input(f"Hi {name}, what do you need right now?"))
 
