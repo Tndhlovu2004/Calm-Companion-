@@ -113,8 +113,14 @@ while True:
  print("2. Gentle-paced breathing excercise.")
  print("3. Belly breathing excercise.")
  print("4. Bible Verse.")
+ print("5. Exit.")
 
- option = int(input(f"Hi {name}, what do you need right now?"))
+ while True:
+  try:
+   option = int(input(f"Hi {name}, what do you need right now?"))
+   break
+  except ValueError:
+    print("Please enter a number.")
 
  if option == 1:
     encouragement()
@@ -123,6 +129,11 @@ while True:
  elif option == 3:
     belly_breathing()
  elif option == 4:
+    bible_verse()
+ elif option == 5:
+    break
+ else:
+    print("Please enter a number within the range 1-5.")
 
 
 
